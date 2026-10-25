@@ -1,0 +1,32 @@
+# 1. Datasets (Crucial: never upload the 1GB+ MRI dataset)
+data/
+*.tif
+*.nii
+*.nii.gz
+*.csv
+
+# 2. Model Weights & Checkpoints (Too large for standard Git)
+outputs/*.pth
+*.pth
+*.ckpt
+
+# 3. Python Cache and Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env/
+
+# 4. Jupyter Notebooks (Just in case)
+.ipynb_checkpoints/
+
+# 5. OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 6. IDE and Editor folders
+.vscode/
+.idea/
