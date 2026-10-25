@@ -19,7 +19,7 @@ venv/
 env/
 .env/
 
-# 4. Jupyter Notebooks (Just in case)
+# 4. Jupyter Notebooks 
 .ipynb_checkpoints/
 
 # 5. OS generated files
